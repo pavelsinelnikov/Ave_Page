@@ -1,0 +1,314 @@
+
+html {font-size: 62.5%;  /* 62.5% of 16 = 10 */
+		box-sizing: border-box;
+		}
+
+*, *:before, *:after { box-sizing: inherit; }
+
+body {font-size: 16px; font-size: 1.6rem; } /* = 16px */
+
+header, main, footer 
+{
+	width: 100%;
+	min-width: 766px;
+}
+
+header
+{
+	position: relative;
+	height: 650px;
+}
+
+.container
+{
+	position: absolute;
+	background: url(../img/banner.jpg) no-repeat left;
+	height: 65.0rem;
+	width: 100%;
+	background-position: 20% 0;
+}
+
+header div div
+{
+	width: 90%;
+	margin: 0 auto;
+}
+
+header div p
+{
+	font-size: 30.0rem;
+	font-weight: 700;
+	text-align: center;
+	letter-spacing: 12vw;
+	margin-left: 10%;
+	color: #575153;
+}
+
+header div button
+{
+	margin-left: 60%;
+	background-color: white;
+    border: solid .3rem;
+    color: grey;
+    padding: 1.5rem 3.2rem;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.6rem;
+}
+
+main
+{
+	width: 90%;
+	margin: 0 auto;
+	border-top: .2rem solid grey;
+	margin-top: 2.5%;
+}
+
+main ul li
+{
+	float: left;
+	padding: 2.5% 0;
+}
+main a
+{
+	text-decoration: none;
+    display: block;
+    padding: .5px 1.0rem;
+    color: #333;
+    font-size: 1.4rem;
+}
+
+main img
+{
+	width: 100%;
+	height: auto;
+}
+
+main a:hover
+{
+	color: #00c8c8;
+}
+
+main ol li 
+{
+	position: relative;
+	max-width: 100%;
+	height: auto;
+}
+
+main ol li:nth-child(4)
+{
+	margin-top: -11.2%;
+}
+
+main ol li p, main ol li i, main ol li h3, main ol li a
+{
+	position: absolute;
+}
+
+main ol li p
+{
+	left: 1.0rem;
+	top: 1.0rem;
+	color: #9a9a9a;
+}
+
+main ol li i
+{
+	right: 1.0rem;
+	top: .5rem;
+	text-shadow: 0 0 1.5rem #d8d8d8;
+	color: #ffffff;
+}
+
+main ol li i:hover
+{
+	color: #000000;
+}
+
+main ol li p span
+{
+	text-decoration: line-through;
+}
+
+footer
+{
+	background-color: #f8f8f8;
+}
+
+footer ul
+{
+	float: left;
+}
+
+footer section
+{
+	width: 60%;
+	margin: 0 auto;
+}
+
+footer section div span, footer .fa
+{
+	font-size: 3.4rem;
+	font-weight: 100;
+}
+
+footer section div span strong
+{
+	font-weight: 700;
+}
+
+footer section div:nth-child(1)
+{
+	margin-top: 8%;
+	margin-bottom: 8%;
+	height: 19.0rem;
+}
+
+footer section div:nth-child(2)
+{
+	height: 20.0rem;
+	background-color: #333333;
+	color: #ffffff;
+	text-align: center;
+	line-height: 20.0rem;
+}
+
+footer section div:nth-child(3)
+{
+	height: 20.0rem;
+	text-align: center;
+	line-height: 20.0rem;
+	background-color: #00c8c8;
+	color: #ffffff;
+}
+
+footer section div ul li
+{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1.5rem;
+	margin-top: 5%; 
+}
+
+footer section div ul li h3
+{
+	font-size: 1.7rem;
+	font-weight: 400;
+	margin-bottom: 10%;
+}
+
+footer .fa:first-child
+{
+	margin-left: 0;
+}
+
+footer .fa
+{
+	margin-left: 10%;
+}
+
+footer div span
+{
+  display: inline-block;
+  vertical-align: middle;
+  line-height: normal;
+}
+
+footer div p
+{
+	margin-top: 3%;
+	color:#999999;
+	width: 100%;
+	background-color: #333333;
+	padding: 1% 0 1% 20%;
+}
+
+@media only screen and (max-width: 76.8rem)  
+{
+	header, main, footer
+  	{
+  		margin: 0 auto;
+  		min-width: 36.0rem;
+  	}
+
+  	header
+  	{
+  		height: 5.0rem;
+  	}
+
+  	.container
+  	{
+		background: none;
+		height: 0;
+  	}
+
+  	header div p
+	{
+		display: none;
+	}
+
+	header div button
+	{
+		display: none;
+	}
+
+  	main
+  	{
+  		width: 100%;
+  		border-top: none;
+  		margin-top: 0;
+  	}
+
+  	main ul li
+  	{
+  		padding: 0 0 1% 5vw;
+
+  	}
+
+  	main ol li:nth-child(2)
+  	{
+  		margin-right: 0;
+  	}
+
+  	main ol li:nth-child(4)
+  	{
+  		margin-top: 0;
+  	}
+
+  	main .col-1-4
+  	{
+  		width: 49.2857142857143%;
+  	}
+
+  	main .col-2-4 
+  	{
+  		width: 100%;
+  	}
+
+  	footer section
+  	{
+  		width: 95%;
+  	}
+
+  	footer section div ul li
+  	{
+  		font-size: 1.0rem;
+  	}
+
+  	footer section div ul li h3
+  	{
+  		font-size: 1.2rem;
+  	}
+
+  	footer section div:nth-child(1) {
+	    margin-top: 2%;
+	    margin-bottom: 2%;
+	    height: 15.0rem;
+	}
+  	footer div p
+  	{
+  		text-align: center;
+  		padding: 1% 0;
+  	}
+}

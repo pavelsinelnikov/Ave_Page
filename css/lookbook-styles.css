@@ -1,0 +1,474 @@
+html {font-size: 62.5%;  /* 62.5% of 16 = 10 */
+    box-sizing: border-box;
+    }
+
+*, *:before, *:after { box-sizing: inherit; }
+
+body {font-size: 16px; font-size: 1.6rem; } /* = 16px */
+
+header, main, footer
+{
+	width: 100%;
+	background-color: #ffffff;
+	min-width: 130.0rem;
+}
+
+header
+{
+	background-size: cover;
+	background-image: url(../img/lookbook-banner.jpg);
+	background-repeat: no-repeat;
+	height: 31.0rem;
+}
+
+header div:nth-child(2)
+{
+	margin-top: 5%;
+}
+header div:nth-child(2) h1, header h2
+{
+	text-align: center;
+	float: none;
+	color: #ffffff;
+}
+header div:nth-child(1) h1
+{
+	margin-left: 5%;
+}
+
+header div:nth-child(1) ul
+{
+	margin-right: 5%;
+}
+
+header div:nth-child(2) h1
+{
+	font-weight: 300;
+}
+
+header div h1 span
+{
+	font-weight: 700;
+}
+
+.janes-lookbook img
+{
+  height: 38.88rem;
+}
+
+main
+{
+	width: 90%;
+	margin: 0 auto;
+	border-top: .2rem solid grey;
+	margin-top: 2.5%;
+}
+
+main ul li
+{
+	float: left;
+	padding: 2.5% 0;
+}
+main a
+{
+	text-decoration: none;
+    display: block;
+    padding: .5rem 1.0rem;
+    color: #333;
+    font-size: 1.4rem;
+}
+
+main img
+{
+	width: 100%;
+	height: auto;
+}
+
+main a:hover
+{
+	color: #00c8c8;
+}
+
+main ol li 
+{
+	position: relative;
+	max-width: 100%;
+	height: auto;
+}
+
+main ol li p, main ol li i, main ol li section
+{
+	position: absolute;
+}
+
+main ol li section p
+{
+	left: 0;
+	right: 0;
+	position: static;
+}
+
+main ol li p
+{
+	color: #9a9a9a;
+}
+
+main ol li section
+{
+	left: 1.0rem;
+	top: 1.0rem;
+}
+
+main ol li section:nth-child(2)
+{
+	width: 40%;
+}
+
+main ol li section:nth-child(3)
+{
+	width: 40%;
+	right: 1.0rem;
+	top: 10.0rem;
+	left: auto;
+}
+
+main ol li p:nth-child(2)
+{
+	left: 1.0rem;
+	top: 1.0rem;
+}
+
+main ol li p
+{
+	font-size: 60%;
+}
+
+main ol .win p:nth-child(6)
+{
+	font-size: 50%;
+}
+
+main ol li section:nth-child(3) h3
+{
+	color: #00c8c8;
+	text-align: right;
+	font-size: 330%;
+	font-weight: 700;
+}
+
+main ol li section:nth-child(3) h3 span
+{
+	width: 100%;
+	color: #00c8c8;
+	text-align: right;
+	font-size: 250%;
+	display: block;
+}
+
+main ol li section:nth-child(2) h3 span
+{
+	font-weight: 700;
+	text-transform: capitalize;
+}
+
+main ol li section:nth-child(2) h3
+{
+	color: #575153;
+	font-size: 4.0rem;
+	font-weight: 300;
+}
+
+main ol li section p
+{
+	margin-top: 5%;
+}
+
+main ol li i
+{
+	right: 1.0rem;
+	top: .5rem;
+	text-shadow: 0 0 1.5rem #d8d8d8;
+	color: #ffffff;
+}
+
+main ol li i:hover
+{
+	color: #000000;
+}
+
+button
+{
+	background-color: transparent;
+    border: solid .3rem;
+    color: grey;
+    padding: 1.5rem 3.2rem;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.6rem;
+    margin-top: 5%;
+}
+
+footer
+{
+	background-color: #f8f8f8;
+}
+
+footer ul
+{
+	float: left;
+}
+
+footer section
+{
+	width: 60%;
+	margin: 0 auto;
+}
+
+footer section div span, footer .fa
+{
+	font-size: 3.4rem;
+	font-weight: 100;
+}
+
+footer section div span strong
+{
+	font-weight: 700;
+}
+
+footer section div:nth-child(1)
+{
+	margin-top: 8%;
+	margin-bottom: 8%;
+	height: 19.0rem;
+}
+
+footer section div:nth-child(2)
+{
+	height: 20.0rem;
+	background-color: #333333;
+	color: #ffffff;
+	text-align: center;
+	line-height: 20.0rem;
+}
+
+footer section div:nth-child(3)
+{
+	height: 20.0rem;
+	text-align: center;
+	line-height: 20.0rem;
+	background-color: #00c8c8;
+	color: #ffffff;
+}
+
+footer section div ul li
+{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1.5rem;
+	margin-top: 5%; 
+}
+
+footer section div ul li h3
+{
+	font-size: 1.7rem;
+	font-weight: 400;
+	margin-bottom: 10%;
+}
+
+footer .fa:first-child
+{
+	margin-left: 0;
+}
+
+footer .fa
+{
+	margin-left: 10%;
+}
+
+footer div span
+{
+  display: inline-block;
+  vertical-align: middle;
+  line-height: normal;
+}
+
+footer div p
+{
+	margin-top: 3%;
+	color:#999999;
+	width: 100%;
+	background-color: #333333;
+	padding: 1% 0 1% 20%;
+}
+
+@media only screen and (max-width: 768px)  
+{
+	header, main, footer
+  	{
+  		margin: 0 auto;
+  		min-width: 36.0rem;
+  	}
+
+  	header
+  	{
+  		height: 37.0rem;
+  		background-image: none;
+  	}
+
+  	.white-bkg
+  	{
+  		height: 5.0rem;
+  		background-image: none;
+  	}
+
+  	header div:nth-child(2)
+  	{
+  		background: url(../img/lookbook-banner.jpg);
+		height: 31.0rem;
+  	}
+
+  	header div:nth-child(2)
+  	{
+  		margin-top: 0;
+  	}
+
+  	header div p
+	{
+		display: none;
+	}
+
+	header div button
+	{
+		display: none;
+	}
+
+  	main
+  	{
+  		width: 100%;
+  		border-top: none;
+  		margin-top: 0;
+  	}
+
+  	main ul li
+  	{
+  		padding: 0 0 1% 5vw;
+
+  	}
+
+  	main ol li:nth-child(2)
+  	{
+  		margin-right: 0;
+  	}
+
+  	main ol li:nth-child(5)
+  	{
+  		margin-right: 0;
+  	}
+
+  	main .col-1-4
+  	{
+  		width: 49.2857142857143%;
+  	}
+
+  	main .col-2-4 
+  	{
+  		width: 100%;
+  	}
+
+  	main .col-3-4
+  	{
+  		width: 49.2857142857143%;
+  	}
+
+  	main ol li:nth-child(8) img
+  	{
+  		display: none;
+  	}
+
+  	main ol .win
+  	{
+  		background-color: #efefed;
+  	}
+
+  	main ol .win section:nth-child(2)
+  	{
+  		width: 80%;
+  		position: static;
+  	}
+
+  	main ol .win section:nth-child(2) h3
+  	{
+  		font-size: 150%;
+  	}
+
+  	main ol .win section p
+  	{
+  		font-size: 50%;
+  		margin-top: 3%;
+  	}
+
+  	main ol .win section p:nth-child(6)
+  	{
+  		display: none;
+  	}
+
+  	main ol .win section:nth-child(3)
+  	{
+  		width: 80%;
+  		right: auto;
+  		position: static;
+  	}
+
+  	main ol .win section:nth-child(3) h3
+  	{
+  		font-size: 3.6rem;
+  	}
+
+  	main ol .win section:nth-child(3) h3 span
+  	{
+  		font-size: 250%;
+  	}
+
+  	main ol .win section
+  	{
+  		margin-left: 3%;
+  	}
+
+  	footer section
+  	{
+  		width: 95%;
+  	}
+
+  	footer section div ul li
+  	{
+  		font-size: 1.0rem;
+  	}
+
+  	footer section div ul li h3
+  	{
+  		font-size: 1.2rem;
+  	}
+
+  	footer section div:nth-child(1) {
+	    margin-top: 2%;
+	    margin-bottom: 2%;
+	    height: 15.0rem;
+	}
+  	footer div p
+  	{
+  		text-align: center;
+  		padding: 1% 0;
+  	}
+
+    button {
+    background-color: transparent;
+    border: solid .3rem;
+    color: grey;
+    padding: 5% 7%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 50%;
+    margin-top: 5%;
+}
+}
